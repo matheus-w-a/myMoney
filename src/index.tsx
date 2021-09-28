@@ -8,10 +8,6 @@ createServer({
     transaction: Model,
   },
 
-  // seeds(server) {
-
-  // },
-
   routes() {
     this.namespace = 'api';
 
@@ -19,7 +15,7 @@ createServer({
       return this.schema.all('transaction')
     })
 
-    this.post('/transactions', (schema, request) => { //schema é o banco de dados do miragejs
+    this.post('/transactions', (schema, request) => { 
       const data = JSON.parse(request.requestBody)
 
       return  schema.create('transaction', data)

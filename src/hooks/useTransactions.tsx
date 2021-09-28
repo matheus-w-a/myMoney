@@ -22,7 +22,7 @@ interface TransactionsContextData {
 }
 
 const TransactionsContext = createContext<TransactionsContextData>(
-  {} as TransactionsContextData //so pra nao dar erro no type
+  {} as TransactionsContextData
 );
 
 export function TransactionsProvider({children}: TransactionsProviderProps) {
@@ -40,7 +40,7 @@ export function TransactionsProvider({children}: TransactionsProviderProps) {
     })
     const { transaction } = response.data
 
-    setTransactions([  //utilizando o conceito de imutabilidade, cria-se um novo vetor com o vetor antigo mais o novo ao invés de alterar o antigo com .push
+    setTransactions([ 
       ...transactions,
       transaction,
     ])

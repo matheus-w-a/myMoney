@@ -6,7 +6,7 @@ import { NewTransactionModal } from "./components/NewTransactionModal";
 import { TransactionsProvider } from "./hooks/useTransactions";
 
 
-export function App() { // exportar desse jeito é melhor // export default app (no final do arquivo) é pior pq quem importa pode mudar o nome para outra coisa
+export function App() { 
   const [isNewTransactionModalOpen, setIsNewTransactioModalOpen] = useState(false);
 
   function handleOpenTransactionModal() {

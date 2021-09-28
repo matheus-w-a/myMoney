@@ -5,7 +5,7 @@ import totalImg from "../../assets/cifrao.svg"
 import { useTransactions } from '../../hooks/useTransactions';
 
 export function Summary() {
-  const {transactions} = useTransactions()// para consumir dados de um contexto
+  const {transactions} = useTransactions()
 
   const summary = transactions.reduce((acc, transaction) =>{
     if (transaction.type === 'deposit') {
