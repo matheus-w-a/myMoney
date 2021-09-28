@@ -1,4 +1,4 @@
-# myMoney
+# app myMoney
 ![Screenshot from 2021-09-28 10-26-39](https://user-images.githubusercontent.com/71939413/135100268-0d3ef1cc-7c41-412e-9927-d79c18dfabb3.png)
 ## 📖 Sobre o projeto
 O projeto realizado no 2º módulo da trilha ReactJS do curso Ignite. 
