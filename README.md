@@ -1,4 +1,4 @@
-# 📱 App myMoney
+# 👨‍💻 App myMoney
 <img src="https://user-images.githubusercontent.com/71939413/149335265-a1f0601f-fc43-40b8-b34f-ce54c9c79e77.gif" width="90%" />
 
 ## 📖 Sobre o projeto
