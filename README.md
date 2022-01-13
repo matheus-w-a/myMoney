@@ -1,8 +1,10 @@
-# app myMoney
-![Screenshot from 2021-09-28 10-26-39](https://user-images.githubusercontent.com/71939413/135100268-0d3ef1cc-7c41-412e-9927-d79c18dfabb3.png)
+# 📱 App myMoney
+<img src="https://user-images.githubusercontent.com/71939413/149335265-a1f0601f-fc43-40b8-b34f-ce54c9c79e77.gif" width="90%" />
+
 ## 📖 Sobre o projeto
 Projeto realizado no 2º módulo da trilha ReactJS do curso Ignite da Rocketseat. 
 O myMoney é uma alternativa simples e eficaz para gerenciar suas finanças, permitindo o cadastro de entradas e saídas organizadas em categorias.
+No desenvolvimento desse app aprendi conceitos importantes do React, como o uso dos estados e também a criar componentes de maneira correta para facilitar a manutenção e a legibilidade 
 
 ## 🖥️ Tecnologias
 Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
@@ -15,6 +17,6 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
 ## 🚀 Como executar
 - Clone o repositório
-- Instale as dependências com yarn
-- Inicie o servidor com yarn start
+- Instale as dependências com <code>yarn</code>
+- Inicie o servidor com <code>yarn start</code>
 - Agora você pode acessar localhost:3000 do seu navegador.
